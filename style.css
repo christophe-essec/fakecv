@@ -1,3 +1,16 @@
-h1{
-    color:red;
+#header{
+    border-bottom: 1px solid #ddd;
+}
+
+#sidebar{
+    width:200px;
+    float:left;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+#content{
+    width:calc(100% - 241px);
+    float:left;
+    padding: 10px;
 }
